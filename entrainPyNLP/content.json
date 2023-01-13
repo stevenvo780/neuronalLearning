@@ -1,0 +1,177 @@
+{
+  "intents": [
+    {
+      "tag": "hour",
+      "input": [
+        "que hora es",
+        "dime la hora",
+        "dame la hora"
+      ],
+      "responses": [
+        "date +%H:%M"
+      ]
+    },
+    {
+      "tag": "date",
+      "input": [
+        "que dia es",
+        "dime la fecha",
+        "dame la fecha"
+      ],
+      "responses": [
+        "date +%d/%m/%Y"
+      ]
+    },
+    {
+      "tag": "day",
+      "input": [
+        "que dia de la semana es",
+        "dime el dia de la semana",
+        "dame el dia de la semana"
+      ],
+      "responses": [
+        "date +%A"
+      ]
+    },
+    {
+      "tag": "month",
+      "input": [
+        "que mes es",
+        "dime el mes",
+        "dame el mes"
+      ],
+      "responses": [
+        "date +%B"
+      ]
+    },
+    {
+      "tag": "year",
+      "input": [
+        "que año es",
+        "dime el año",
+        "dame el año"
+      ],
+      "responses": [
+        "date +%Y"
+      ]
+    },
+    {
+      "tag": "ip",
+      "input": [
+        "dime mi ip",
+        "dame mi ip",
+        "que ip tengo"
+      ],
+      "responses": [
+        "ip=$(curl -s http://ifconfig.me/ip) && echo $ip"
+      ]
+    },
+    {
+      "tag": "temp",
+      "input": [
+        "dime la temperatura",
+        "dame la temperatura",
+        "que temperatura hace"
+      ],
+      "responses": [
+        "temp=$(curl -s wttr.in/Valencia?format=1) && echo $temp"
+      ]
+    },
+    {
+      "tag": "weather",
+      "input": [
+        "dime el tiempo",
+        "dame el tiempo",
+        "que tiempo hace"
+      ],
+      "responses": [
+        "weather=$(curl -s wttr.in/Valencia?format=1) && echo $weather"
+      ]
+    },
+    {
+      "tag": "news",
+      "input": [
+        "dime las noticias",
+        "dame las noticias",
+        "que noticias hay"
+      ],
+      "responses": [
+        "news=$(curl -s https://www.elmundo.es/rss/elmundo/portada.xml | grep -o '<title>.*</title>' | sed 's/<title>//' | sed 's/<\/title>//' | sed 's/^[ \t]*//' | sed 's/^/- /' | head -n 5) && echo $news"
+      ]
+    },
+    {
+      "tag": "shutdown",
+      "input": [
+        "apagar",
+        "cerrar",
+        "apaga"
+      ],
+      "responses": [
+        "sudo shutdown -h now"
+      ]
+    },
+    {
+      "tag": "reboot",
+      "input": [
+        "reiniciar",
+        "reinicia"
+      ],
+      "responses": [
+        "sudo reboot"
+      ]
+    },
+    {
+      "tag": "update",
+      "input": [
+        "actualizar",
+        "actualiza",
+        "actualiza el sistema",
+        "actualizar el sistema",
+        "actualiza el sistema operativo",
+        "actualizar el sistema operativo",
+        "actualiza el sistema operativo y los programas"
+      ],
+      "responses": [
+        "sudo apt-get update && sudo apt-get upgrade -y"
+      ]
+    },
+    {
+      "tag": "clean",
+      "input": [
+        "limpiar",
+        "limpia",
+        "limpia el sistema",
+        "limpiar el sistema",
+        "limpia el sistema operativo",
+        "limpiar el sistema operativo",
+        "limpia el sistema operativo y los programas"
+      ],
+      "responses": [
+        "sudo apt-get clean && sudo apt-get autoremove -y"
+      ]
+    },
+    {
+      "tag": "joke",
+      "input": [
+        "dime un chiste",
+        "dame un chiste",
+        "que chiste hay",
+        "dime un chiste malo",
+        "dame un chiste malo",
+        "que chiste malo hay",
+        "dime un chiste bueno",
+        "dame un chiste bueno",
+        "que chiste bueno hay",
+        "dime un chiste gracioso",
+        "dame un chiste gracioso",
+        "que chiste gracioso hay",
+        "dime un chiste de programacion",
+        "dame un chiste de programacion",
+        "que chiste de programacion hay"
+      ],
+      "responses": [
+        "joke=$(curl -s http://api.icndb.com/jokes/random?exclude=[explicit] | jq -r '.value.joke') && echo $joke"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@google-cloud/speech": "^5.1.0",
+    "@tensorflow/tfjs": "^4.2.0",
+    "brain.js": "^2.0.0-alpha.1",
+    "fs": "^0.0.1-security",
+    "googleapis": "^110.0.0",
+    "gpu.js": "^2.16.0",
+    "tf": "^1.0.1",
+    "word2vec": "^1.1.5"
+  }
+}

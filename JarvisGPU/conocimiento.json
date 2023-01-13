@@ -1,0 +1,678 @@
+[
+  {
+    "input": "abrir terminal",
+    "output": "gnome-terminal"
+  },
+  {
+    "input": "abrir explorador de archivos",
+    "output": "nautilus"
+  },
+  {
+    "input": "abrir editor de código",
+    "output": "code"
+  },
+  {
+    "input": "busca información sobre Linux",
+    "output": "google-chrome \"información sobre Linux\""
+  },
+  {
+    "input": "qué hora es",
+    "output": "date"
+  },
+  {
+    "input": "cuánto espacio libre hay en el disco",
+    "output": "df -h"
+  },
+  {
+    "input": "muestra los procesos en ejecución",
+    "output": "ps aux"
+  },
+  {
+    "input": "abrir gestor de paquetes",
+    "output": "aptitude"
+  },
+  {
+    "input": "instalar paquete",
+    "output": "apt-get install"
+  },
+  {
+    "input": "actualizar sistema",
+    "output": "apt-get update && apt-get upgrade"
+  },
+  {
+    "input": "abrir cliente de correo",
+    "output": "thunderbird"
+  },
+  {
+    "input": "enviar correo electrónico",
+    "output": "mutt"
+  },
+  {
+    "input": "abrir reproductor de música",
+    "output": "vlc"
+  },
+  {
+    "input": "abrir editor de imágenes",
+    "output": "gimp"
+  },
+  {
+    "input": "abrir visualizador de PDF",
+    "output": "evince"
+  },
+  {
+    "input": "abrir navegador web",
+    "output": "google-chrome"
+  },
+  {
+    "input": "abrir gestor de descargas",
+    "output": "transmission-gtk"
+  },
+  {
+    "input": "abrir editor de texto",
+    "output": "gedit"
+  },
+  {
+    "input": "abrir terminal",
+    "output": "gnome-terminal"
+  },
+  {
+    "input": "abrir panel de control",
+    "output": "gnome-control-center"
+  },
+  {
+    "input": "abrir configuración de red",
+    "output": "nm-connection-editor"
+  },
+  {
+    "input": "abrir configuración de pantalla",
+    "output": "gnome-display-properties"
+  },
+  {
+    "input": "abrir configuración de sonido",
+    "output": "gnome-volume-control"
+  },
+  {
+    "input": "abrir configuración de teclado",
+    "output": "gnome-keyboard-properties"
+  },
+  {
+    "input": "abrir configuración de idioma",
+    "output": "gnome-language-selector"
+  },
+  {
+    "input": "abrir configuración de usuario",
+    "output": "gnome-about-me"
+  },
+  {
+    "input": "abrir configuración de privacidad",
+    "output": "gnome-privacy-settings"
+  },
+  {
+    "input": "abrir configuración de seguridad",
+    "output": "gnome-user-accounts"
+  },
+  {
+    "input": "abrir configuración de sistema",
+    "output": "gnome-system-settings"
+  },
+  {
+    "input": "abrir editor de video",
+    "output": "openshot"
+  },
+  {
+    "input": "abrir editor de audio",
+    "output": "audacity"
+  },
+  {
+    "input": "abrir programa de grabación de audio y video",
+    "output": "cheese"
+  },
+  {
+    "input": "abrir gestor de proyectos",
+    "output": "gnome-todo"
+  },
+  {
+    "input": "abrir programa de mensajería",
+    "output": "pidgin"
+  },
+  {
+    "input": "abrir programa de chat",
+    "output": "hexchat"
+  },
+  {
+    "input": "abrir programa de videollamadas",
+    "output": "skype"
+  },
+  {
+    "input": "abrir programa de notas",
+    "output": "tomboy"
+  },
+  {
+    "input": "abrir programa de dibujo",
+    "output": "inkscape"
+  },
+  {
+    "input": "abrir programa de presentaciones",
+    "output": "libreoffice-impress"
+  },
+  {
+    "input": "abrir programa de hojas de cálculo",
+    "output": "libreoffice-calc"
+  },
+  {
+    "input": "abrir programa de procesamiento de texto",
+    "output": "libreoffice-writer"
+  },
+  {
+    "input": "abrir programa de bases de datos",
+    "output": "libreoffice-base"
+  },
+  {
+    "input": "abrir programa de organización",
+    "output": "gnome-organizer"
+  },
+  {
+    "input": "abrir programa de diccionario",
+    "output": "goldendict"
+  },
+  {
+    "input": "abrir programa de traducción",
+    "output": "google-chrome \"traductor\""
+  },
+  {
+    "input": "abrir programa de anotaciones",
+    "output": "gnote"
+  },
+  {
+    "input": "abrir programa de planificación",
+    "output": "gnome-calendar"
+  },
+  {
+    "input": "abrir programa de gráficos",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir programa de benchmark",
+    "output": "sysbench"
+  },
+  {
+    "input": "abrir programa de diagnóstico de hardware",
+    "output": "lshw"
+  },
+  {
+    "input": "abrir programa de inventario de hardware",
+    "output": "hardinfo"
+  },
+  {
+    "input": "abrir programa de monitorización de red",
+    "output": "gnome-system-log"
+  },
+  {
+    "input": "abrir programa de monitorización de rendimiento",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir programa de monitorización de temperatura",
+    "output": "sensors"
+  },
+  {
+    "input": "abrir programa de monitorización de consumo de energía",
+    "output": "gnome-power-statistics"
+  },
+  {
+    "input": "abrir programa de monitorización de disco",
+    "output": "baobab"
+  },
+  {
+    "input": "abrir programa de monitorización de memoria",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir programa de monitorización de procesos",
+    "output": "htop"
+  },
+  {
+    "input": "abrir programa de monitorización de CPU",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir programa de monitorización de uso de la red",
+    "output": "nethogs"
+  },
+  {
+    "input": "abrir aplicación de diccionario",
+    "output": "gnome-dictionary"
+  },
+  {
+    "input": "abrir gestor de tareas",
+    "output": "gnome-task-manager"
+  },
+  {
+    "input": "abrir programa de anotaciones",
+    "output": "gnote"
+  },
+  {
+    "input": "abrir editor de gráficos vectoriales",
+    "output": "inkscape"
+  },
+  {
+    "input": "abrir programa de dibujo técnico",
+    "output": "dia"
+  },
+  {
+    "input": "abrir programa de gestión de proyectos",
+    "output": "planner"
+  },
+  {
+    "input": "abrir programa de diseño gráfico",
+    "output": "gimp"
+  },
+  {
+    "input": "abrir programa de optimización de imágenes",
+    "output": "optipng"
+  },
+  {
+    "input": "abrir programa de análisis de datos",
+    "output": "rstudio"
+  },
+  {
+    "input": "abrir programa de visualización de datos",
+    "output": "datawrapper"
+  },
+  {
+    "input": "abrir programa de edición de fotografías",
+    "output": "darktable"
+  },
+  {
+    "input": "abrir programa de gestión de base de datos",
+    "output": "mysql-workbench"
+  },
+  {
+    "input": "abrir programa de edición de archivos de audio",
+    "output": "audacity"
+  },
+  {
+    "input": "abrir programa de edición de archivos de video",
+    "output": "kdenlive"
+  },
+  {
+    "input": "abrir programa de grabación de pantalla",
+    "output": "kazam"
+  },
+  {
+    "input": "abrir programa de creación de animaciones",
+    "output": "blender"
+  },
+  {
+    "input": "abrir programa de edición de archivos de texto",
+    "output": "leafpad"
+  },
+  {
+    "input": "abrir programa de creación de bases de datos",
+    "output": "mysql-workbench"
+  },
+  {
+    "input": "abrir programa de monitoreo de sistema",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir programa de análisis de rendimiento de sistema",
+    "output": "htop"
+  },
+  {
+    "input": "abrir programa de optimización del sistema",
+    "output": "bleachbit"
+  },
+  {
+    "input": "abrir programa de gestión de archivos comprimidos",
+    "output": "file-roller"
+  },
+  {
+    "input": "abrir programa de edición de archivos de audio y video",
+    "output": "avidemux"
+  },
+  {
+    "input": "abrir programa de edición de archivos de imagen",
+    "output": "darktable"
+  },
+  {
+    "input": "abrir programa de creación de presentaciones",
+    "output": "libreoffice-impress"
+  },
+  {
+    "input": "abrir programa de creación de diagramas",
+    "output": "dia"
+  },
+  {
+    "input": "abrir programa de creación de bases de datos",
+    "output": "mysql-workbench"
+  },
+  {
+    "input": "abrir programa de optimización de imágenes",
+    "output": "optipng"
+  },
+  {
+    "input": "abrir programa de edición de archivos de audio y video",
+    "output": "avidemux"
+  },
+  {
+    "input": "abrir programa de edición de archivos de imagen",
+    "output": "darktable"
+  },
+  {
+    "input": "abrir programa de creación de animaciones",
+    "output": "blender"
+  },
+  {
+    "input": "abrir programa de edición de archivos de texto",
+    "output": "leafpad"
+  },
+  {
+    "input": "abrir programa de gestión de proyectos",
+    "output": "planner"
+  },
+  {
+    "input": "abrir programa de análisis de rendimiento de sistema",
+    "output": "htop"
+  },
+  {
+    "input": "abrir programa de optimización del sistema",
+    "output": "bleachbit"
+  },
+  {
+    "input": "abrir programa de monitoreo de sistema",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir programa de gestión de archivos comprimidos",
+    "output": "file-roller"
+  },
+  {
+    "input": "abrir terminal",
+    "output": "gnome-terminal"
+  },
+  {
+    "input": "abrir explorador de archivos",
+    "output": "nautilus"
+  },
+  {
+    "input": "abrir editor de código",
+    "output": "code"
+  },
+  {
+    "input": "busca información sobre Linux",
+    "output": "google-chrome \"información sobre Linux\""
+  },
+  {
+    "input": "qué hora es",
+    "output": "date"
+  },
+  {
+    "input": "cuánto espacio libre hay en el disco",
+    "output": "df -h"
+  },
+  {
+    "input": "muestra los procesos en ejecución",
+    "output": "ps aux"
+  },
+  {
+    "input": "abrir gestor de paquetes",
+    "output": "aptitude"
+  },
+  {
+    "input": "instalar paquete",
+    "output": "apt-get install"
+  },
+  {
+    "input": "actualizar sistema",
+    "output": "apt-get update && apt-get upgrade"
+  },
+  {
+    "input": "abrir cliente de correo",
+    "output": "thunderbird"
+  },
+  {
+    "input": "enviar correo electrónico",
+    "output": "mutt"
+  },
+  {
+    "input": "abrir reproductor de música",
+    "output": "vlc"
+  },
+  {
+    "input": "abrir editor de imágenes",
+    "output": "gimp"
+  },
+  {
+    "input": "abrir visualizador de PDF",
+    "output": "evince"
+  },
+  {
+    "input": "abrir navegador web",
+    "output": "google-chrome"
+  },
+  {
+    "input": "abrir gestor de descargas",
+    "output": "transmission-gtk"
+  },
+  {
+    "input": "abrir editor de texto",
+    "output": "gedit"
+  },
+  {
+    "input": "abrir terminal",
+    "output": "gnome-terminal"
+  },
+  {
+    "input": "abrir panel de control",
+    "output": "gnome-control-center"
+  },
+  {
+    "input": "abrir configuración de red",
+    "output": "nm-connection-editor"
+  },
+  {
+    "input": "abrir configuración de pantalla",
+    "output": "gnome-display-properties"
+  },
+  {
+    "input": "abrir configuración de sonido",
+    "output": "gnome-volume-control"
+  },
+  {
+    "input": "abrir configuración de teclado",
+    "output": "gnome-keyboard-properties"
+  },
+  {
+    "input": "abrir configuración de idioma",
+    "output": "gnome-language-selector"
+  },
+  {
+    "input": "abrir configuración de usuario",
+    "output": "gnome-about-me"
+  },
+  {
+    "input": "abrir configuración de privacidad",
+    "output": "gnome-privacy-settings"
+  },
+  {
+    "input": "abrir programa de creación de gráficos",
+    "output": "graphviz"
+  },
+  {
+    "input": "abrir programa de gestión de bases de datos",
+    "output": "dbeaver"
+  },
+  {
+    "input": "abrir programa de análisis de datos",
+    "output": "orange"
+  },
+  {
+    "input": "abrir programa de edición de archivos de audio",
+    "output": "lmms"
+  },
+  {
+    "input": "abrir programa de edición de archivos de video",
+    "output": "openshot"
+  },
+  {
+    "input": "abrir programa de edición de archivos de imagen",
+    "output": "darktable"
+  },
+  {
+    "input": "abrir programa de gestión de tareas",
+    "output": "asana"
+  },
+  {
+    "input": "abrir programa de edición de archivos PDF",
+    "output": "libreoffice-writer"
+  },
+  {
+    "input": "abrir programa de creación de bases de datos",
+    "output": "pgadmin4"
+  },
+  {
+    "input": "abrir programa de análisis de rendimiento de sistema",
+    "output": "htop"
+  },
+  {
+    "input": "abrir programa de optimización de sistema",
+    "output": "bleachbit"
+  },
+  {
+    "input": "abrir programa de gestión de archivos comprimidos",
+    "output": "ark"
+  },
+  {
+    "input": "abrir programa de gestión de proyectos",
+    "output": "asana"
+  },
+  {
+    "input": "abrir programa de creación de sitios web",
+    "output": "bluefish"
+  },
+  {
+    "input": "abrir programa de creación de animaciones",
+    "output": "blender"
+  },
+  {
+    "input": "abrir programa de creación de juegos",
+    "output": "godot"
+  },
+  {
+    "input": "abrir programa de creación de diagramas",
+    "output": "yed"
+  },
+  {
+    "input": "abrir programa de creación de aplicaciones móviles",
+    "output": "android-studio"
+  },
+  {
+    "input": "abrir programa de creación de aplicaciones de escritorio",
+    "output": "pycharm"
+  },
+  {
+    "input": "abrir programa de creación de aplicaciones web",
+    "output": "webstorm"
+  },
+  {
+    "input": "abrir programa de edición de archivos de audio",
+    "output": "audacity"
+  },
+  {
+    "input": "abrir programa de edición de archivos de video",
+    "output": "kdenlive"
+  },
+  {
+    "input": "abrir programa de edición de archivos de imagen",
+    "output": "gimp"
+  },
+  {
+    "input": "abrir programa de análisis de tráfico de red",
+    "output": "wireshark"
+  },
+  {
+    "input": "abrir programa de simulación de redes",
+    "output": "ns3"
+  },
+  {
+    "input": "abrir programa de análisis de vulnerabilidades",
+    "output": "nessus"
+  },
+  {
+    "input": "abrir programa de gestión de bases de datos",
+    "output": "mysql-workbench"
+  },
+  {
+    "input": "abrir programa de análisis de datos",
+    "output": "knime"
+  },
+  {
+    "input": "abrir programa de gestión de proyectos",
+    "output": "redmine"
+  },
+  {
+    "input": "abrir programa de edición de archivos PDF",
+    "output": "libreoffice-writer"
+  },
+  {
+    "input": "abrir programa de creación de bases de datos",
+    "output": "mongo-compass"
+  },
+  {
+    "input": "abrir programa de optimización de sistema",
+    "output": "ccleaner"
+  },
+  {
+    "input": "abrir programa de gestión de archivos comprimidos",
+    "output": "7zip"
+  },
+  {
+    "input": "abrir programa de creación de música",
+    "output": "lmms"
+  },
+  {
+    "input": "abrir programa de análisis de estadísticas",
+    "output": "rstudio"
+  },
+  {
+    "input": "abrir programa de análisis de datos financieros",
+    "output": "intrinio"
+  },
+  {
+    "input": "abrir programa de análisis de datos de tráfico",
+    "output": "google-analytics"
+  },
+  {
+    "input": "abrir programa de análisis de datos de redes sociales",
+    "output": "hootsuite"
+  },
+  {
+    "input": "abrir programa de análisis de datos de ventas",
+    "output": "salesforce"
+  },
+  {
+    "input": "abrir programa de análisis de datos de marketing",
+    "output": "hubspot"
+  },
+  {
+    "input": "abrir programa de análisis de datos de seguridad",
+    "output": "splunk"
+  },
+  {
+    "input": "abrir programa de análisis de datos de log",
+    "output": "logstash"
+  },
+  {
+    "input": "abrir programa de análisis de datos de IT",
+    "output": "zabbix"
+  },
+  {
+    "input": "abrir programa de análisis de datos de tráfico de red",
+    "output": "tcpdump"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo energético",
+    "output": "smartmeter"
+  }
+]
